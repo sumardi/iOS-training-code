@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjectsAndPointers' target in the 'ObjectsAndPointers' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

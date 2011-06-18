@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C9106A1131DE49400067599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9106A0131DE49400067599 /* Foundation.framework */; };
+		6C9106A4131DE49400067599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9106A3131DE49400067599 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C91069A131DE49400067599 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C91069C131DE49400067599 /* CommonRuntimeErrors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommonRuntimeErrors; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9106A0131DE49400067599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C9106A3131DE49400067599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C9106A6131DE49400067599 /* CommonRuntimeErrors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonRuntimeErrors-Prefix.pch"; sourceTree = "<group>"; };
+		6C9106A7131DE49400067599 /* CommonRuntimeErrors.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CommonRuntimeErrors.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C910699131DE49400067599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9106A1131DE49400067599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C910691131DE49400067599 = {
+			isa = PBXGroup;
+			children = (
+				6C9106A2131DE49400067599 /* CommonRuntimeErrors */,
+				6C91069F131DE49400067599 /* Frameworks */,
+				6C91069D131DE49400067599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C91069D131DE49400067599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C91069C131DE49400067599 /* CommonRuntimeErrors */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C91069F131DE49400067599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9106A0131DE49400067599 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C9106A2131DE49400067599 /* CommonRuntimeErrors */ = {
+			isa = PBXGroup;
+			children = (
+				6C9106A3131DE49400067599 /* main.m */,
+				6C9106A7131DE49400067599 /* CommonRuntimeErrors.1 */,
+				6C9106A5131DE49400067599 /* Supporting Files */,
+			);
+			path = CommonRuntimeErrors;
+			sourceTree = "<group>";
+		};
+		6C9106A5131DE49400067599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C9106A6131DE49400067599 /* CommonRuntimeErrors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C91069B131DE49400067599 /* CommonRuntimeErrors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9106AA131DE49400067599 /* Build configuration list for PBXNativeTarget "CommonRuntimeErrors" */;
+			buildPhases = (
+				6C910698131DE49400067599 /* Sources */,
+				6C910699131DE49400067599 /* Frameworks */,
+				6C91069A131DE49400067599 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonRuntimeErrors;
+			productName = CommonRuntimeErrors;
+			productReference = 6C91069C131DE49400067599 /* CommonRuntimeErrors */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C910693131DE49400067599 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6C910696131DE49400067599 /* Build configuration list for PBXProject "CommonRuntimeErrors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C910691131DE49400067599;
+			productRefGroup = 6C91069D131DE49400067599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C91069B131DE49400067599 /* CommonRuntimeErrors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C910698131DE49400067599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9106A4131DE49400067599 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C9106A8131DE49400067599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C9106A9131DE49400067599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C9106AB131DE49400067599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonRuntimeErrors/CommonRuntimeErrors-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C9106AC131DE49400067599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonRuntimeErrors/CommonRuntimeErrors-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C910696131DE49400067599 /* Build configuration list for PBXProject "CommonRuntimeErrors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9106A8131DE49400067599 /* Debug */,
+				6C9106A9131DE49400067599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9106AA131DE49400067599 /* Build configuration list for PBXNativeTarget "CommonRuntimeErrors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9106AB131DE49400067599 /* Debug */,
+				6C9106AC131DE49400067599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C910693131DE49400067599 /* Project object */;
+}

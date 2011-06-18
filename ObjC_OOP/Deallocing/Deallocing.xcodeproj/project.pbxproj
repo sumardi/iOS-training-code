@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FA732F113ACC17000BD08B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA732F013ACC17000BD08B1 /* Foundation.framework */; };
+		9FA732F413ACC17000BD08B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA732F313ACC17000BD08B1 /* main.m */; };
+		9FA732FF13ACC18E00BD08B1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA732FE13ACC18E00BD08B1 /* Player.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FA732EA13ACC17000BD08B1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FA732EC13ACC17000BD08B1 /* Deallocing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Deallocing; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA732F013ACC17000BD08B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FA732F313ACC17000BD08B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FA732F613ACC17000BD08B1 /* Deallocing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deallocing-Prefix.pch"; sourceTree = "<group>"; };
+		9FA732F713ACC17000BD08B1 /* Deallocing.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Deallocing.1; sourceTree = "<group>"; };
+		9FA732FD13ACC18E00BD08B1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9FA732FE13ACC18E00BD08B1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FA732E913ACC17000BD08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA732F113ACC17000BD08B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FA732E113ACC17000BD08B1 = {
+			isa = PBXGroup;
+			children = (
+				9FA732F213ACC17000BD08B1 /* Deallocing */,
+				9FA732EF13ACC17000BD08B1 /* Frameworks */,
+				9FA732ED13ACC17000BD08B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FA732ED13ACC17000BD08B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA732EC13ACC17000BD08B1 /* Deallocing */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FA732EF13ACC17000BD08B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA732F013ACC17000BD08B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FA732F213ACC17000BD08B1 /* Deallocing */ = {
+			isa = PBXGroup;
+			children = (
+				9FA732F313ACC17000BD08B1 /* main.m */,
+				9FA732F713ACC17000BD08B1 /* Deallocing.1 */,
+				9FA732F513ACC17000BD08B1 /* Supporting Files */,
+				9FA732FD13ACC18E00BD08B1 /* Player.h */,
+				9FA732FE13ACC18E00BD08B1 /* Player.m */,
+			);
+			path = Deallocing;
+			sourceTree = "<group>";
+		};
+		9FA732F513ACC17000BD08B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FA732F613ACC17000BD08B1 /* Deallocing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FA732EB13ACC17000BD08B1 /* Deallocing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FA732FA13ACC17000BD08B1 /* Build configuration list for PBXNativeTarget "Deallocing" */;
+			buildPhases = (
+				9FA732E813ACC17000BD08B1 /* Sources */,
+				9FA732E913ACC17000BD08B1 /* Frameworks */,
+				9FA732EA13ACC17000BD08B1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deallocing;
+			productName = Deallocing;
+			productReference = 9FA732EC13ACC17000BD08B1 /* Deallocing */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FA732E313ACC17000BD08B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Software Machine Development";
+			};
+			buildConfigurationList = 9FA732E613ACC17000BD08B1 /* Build configuration list for PBXProject "Deallocing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FA732E113ACC17000BD08B1;
+			productRefGroup = 9FA732ED13ACC17000BD08B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FA732EB13ACC17000BD08B1 /* Deallocing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FA732E813ACC17000BD08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA732F413ACC17000BD08B1 /* main.m in Sources */,
+				9FA732FF13ACC18E00BD08B1 /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FA732F813ACC17000BD08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9FA732F913ACC17000BD08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9FA732FB13ACC17000BD08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deallocing/Deallocing-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FA732FC13ACC17000BD08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deallocing/Deallocing-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FA732E613ACC17000BD08B1 /* Build configuration list for PBXProject "Deallocing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA732F813ACC17000BD08B1 /* Debug */,
+				9FA732F913ACC17000BD08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA732FA13ACC17000BD08B1 /* Build configuration list for PBXNativeTarget "Deallocing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FA732FB13ACC17000BD08B1 /* Debug */,
+				9FA732FC13ACC17000BD08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FA732E313ACC17000BD08B1 /* Project object */;
+}

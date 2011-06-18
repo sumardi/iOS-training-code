@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ObjectsAndPointers/ObjectsAndPointers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Autoreleasing/Autoreleasing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomClasses/CustomClasses.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CustomInitializer/CustomInitializer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Deallocing/Deallocing.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Inheritance/Inheritance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Categories/Categories.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Dynamic/Dynamic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonRuntimeErrors/CommonRuntimeErrors.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CompileWarnings/CompileWarnings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CompileIssues/CompileIssues.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ExceptionHandling_starter/ExceptionHandling.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Debugging/Debugging.xcodeproj">
+   </FileRef>
+</Workspace>

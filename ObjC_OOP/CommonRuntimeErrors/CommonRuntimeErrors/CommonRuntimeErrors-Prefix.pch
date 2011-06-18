@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CommonRuntimeErrors' target in the 'CommonRuntimeErrors' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

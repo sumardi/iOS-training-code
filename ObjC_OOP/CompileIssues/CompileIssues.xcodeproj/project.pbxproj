@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C910652131DA73600067599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C910651131DA73600067599 /* Foundation.framework */; };
+		6C910655131DA73600067599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C910654131DA73600067599 /* main.m */; };
+		6C910660131DA7D500067599 /* MyNewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C91065F131DA7D500067599 /* MyNewClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C91064B131DA73600067599 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C91064D131DA73600067599 /* CompileIssues */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompileIssues; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C910651131DA73600067599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C910654131DA73600067599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C910657131DA73600067599 /* CompileIssues-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompileIssues-Prefix.pch"; sourceTree = "<group>"; };
+		6C910658131DA73600067599 /* CompileIssues.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CompileIssues.1; sourceTree = "<group>"; };
+		6C91065E131DA7D500067599 /* MyNewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNewClass.h; sourceTree = "<group>"; };
+		6C91065F131DA7D500067599 /* MyNewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNewClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C91064A131DA73600067599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C910652131DA73600067599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C910642131DA73600067599 = {
+			isa = PBXGroup;
+			children = (
+				6C91065E131DA7D500067599 /* MyNewClass.h */,
+				6C91065F131DA7D500067599 /* MyNewClass.m */,
+				6C910653131DA73600067599 /* CompileIssues */,
+				6C910650131DA73600067599 /* Frameworks */,
+				6C91064E131DA73600067599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C91064E131DA73600067599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C91064D131DA73600067599 /* CompileIssues */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C910650131DA73600067599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C910651131DA73600067599 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C910653131DA73600067599 /* CompileIssues */ = {
+			isa = PBXGroup;
+			children = (
+				6C910654131DA73600067599 /* main.m */,
+				6C910658131DA73600067599 /* CompileIssues.1 */,
+				6C910656131DA73600067599 /* Supporting Files */,
+			);
+			path = CompileIssues;
+			sourceTree = "<group>";
+		};
+		6C910656131DA73600067599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C910657131DA73600067599 /* CompileIssues-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C91064C131DA73600067599 /* CompileIssues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C91065B131DA73600067599 /* Build configuration list for PBXNativeTarget "CompileIssues" */;
+			buildPhases = (
+				6C910649131DA73600067599 /* Sources */,
+				6C91064A131DA73600067599 /* Frameworks */,
+				6C91064B131DA73600067599 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompileIssues;
+			productName = CompileIssues;
+			productReference = 6C91064D131DA73600067599 /* CompileIssues */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C910644131DA73600067599 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6C910647131DA73600067599 /* Build configuration list for PBXProject "CompileIssues" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C910642131DA73600067599;
+			productRefGroup = 6C91064E131DA73600067599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C91064C131DA73600067599 /* CompileIssues */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C910649131DA73600067599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C910655131DA73600067599 /* main.m in Sources */,
+				6C910660131DA7D500067599 /* MyNewClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C910659131DA73600067599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				"GCC_TREAT_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C91065A131DA73600067599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C91065C131DA73600067599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompileIssues/CompileIssues-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C91065D131DA73600067599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompileIssues/CompileIssues-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C910647131DA73600067599 /* Build configuration list for PBXProject "CompileIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C910659131DA73600067599 /* Debug */,
+				6C91065A131DA73600067599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C91065B131DA73600067599 /* Build configuration list for PBXNativeTarget "CompileIssues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C91065C131DA73600067599 /* Debug */,
+				6C91065D131DA73600067599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C910644131DA73600067599 /* Project object */;
+}
