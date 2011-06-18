@@ -13,4 +13,10 @@
    <FileRef
       location = "group:DataSources/DataSources.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:SimpleTable/SimpleTable.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GroupedTable/GroupedTable.xcodeproj">
+   </FileRef>
 </Workspace>
