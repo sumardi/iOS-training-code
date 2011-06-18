@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HelloWorld/HelloWorld.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CodeSnippets/CodeSnippets.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DataTypes/DataTypes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ArithmeticExpressions/ArithmeticExpressions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ConditionalCode/ConditionalCode.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Loops/Loops.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Functions/Functions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NumericDataTypes/NumericDataTypes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Strings/Strings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Scope/Scope.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Enumerations/Enumerations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TypeDef/TypeDef.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PreprocessorDirectives/PreprocessorDirectives.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pointers/Pointers.xcodeproj">
+   </FileRef>
+</Workspace>
