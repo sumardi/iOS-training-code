@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FA731DB13AC998700BD08B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA731DA13AC998700BD08B1 /* Foundation.framework */; };
-		9FA731DE13AC998700BD08B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA731DD13AC998700BD08B1 /* main.m */; };
+		9B719D111338112900B0D464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B719D101338112900B0D464 /* Foundation.framework */; };
+		9B719D141338112900B0D464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B719D131338112900B0D464 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9FA731D413AC998700BD08B1 /* CopyFiles */ = {
+		9B719D0A1338112900B0D464 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,64 +24,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9FA731D613AC998700BD08B1 /* Pointers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pointers; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA731DA13AC998700BD08B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		9FA731DD13AC998700BD08B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9FA731E013AC998700BD08B1 /* Pointers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pointers-Prefix.pch"; sourceTree = "<group>"; };
-		9FA731E113AC998700BD08B1 /* Pointers.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pointers.1; sourceTree = "<group>"; };
+		9B719D0C1338112900B0D464 /* ObjCArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjCArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B719D101338112900B0D464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B719D131338112900B0D464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B719D161338112900B0D464 /* ObjCArrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCArrays-Prefix.pch"; sourceTree = "<group>"; };
+		9B719D171338112900B0D464 /* ObjCArrays.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ObjCArrays.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9FA731D313AC998700BD08B1 /* Frameworks */ = {
+		9B719D091338112900B0D464 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA731DB13AC998700BD08B1 /* Foundation.framework in Frameworks */,
+				9B719D111338112900B0D464 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9FA731CB13AC998700BD08B1 = {
+		9B719D011338112900B0D464 = {
 			isa = PBXGroup;
 			children = (
-				9FA731DC13AC998700BD08B1 /* Pointers */,
-				9FA731D913AC998700BD08B1 /* Frameworks */,
-				9FA731D713AC998700BD08B1 /* Products */,
+				9B719D121338112900B0D464 /* ObjCArrays */,
+				9B719D0F1338112900B0D464 /* Frameworks */,
+				9B719D0D1338112900B0D464 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9FA731D713AC998700BD08B1 /* Products */ = {
+		9B719D0D1338112900B0D464 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FA731D613AC998700BD08B1 /* Pointers */,
+				9B719D0C1338112900B0D464 /* ObjCArrays */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FA731D913AC998700BD08B1 /* Frameworks */ = {
+		9B719D0F1338112900B0D464 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9FA731DA13AC998700BD08B1 /* Foundation.framework */,
+				9B719D101338112900B0D464 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9FA731DC13AC998700BD08B1 /* Pointers */ = {
+		9B719D121338112900B0D464 /* ObjCArrays */ = {
 			isa = PBXGroup;
 			children = (
-				9FA731DD13AC998700BD08B1 /* main.m */,
-				9FA731E113AC998700BD08B1 /* Pointers.1 */,
-				9FA731DF13AC998700BD08B1 /* Supporting Files */,
+				9B719D131338112900B0D464 /* main.m */,
+				9B719D171338112900B0D464 /* ObjCArrays.1 */,
+				9B719D151338112900B0D464 /* Supporting Files */,
 			);
-			path = Pointers;
+			path = ObjCArrays;
 			sourceTree = "<group>";
 		};
-		9FA731DF13AC998700BD08B1 /* Supporting Files */ = {
+		9B719D151338112900B0D464 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FA731E013AC998700BD08B1 /* Pointers-Prefix.pch */,
+				9B719D161338112900B0D464 /* ObjCArrays-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -89,61 +89,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA731D513AC998700BD08B1 /* Pointers */ = {
+		9B719D0B1338112900B0D464 /* ObjCArrays */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA731E413AC998700BD08B1 /* Build configuration list for PBXNativeTarget "Pointers" */;
+			buildConfigurationList = 9B719D1A1338112900B0D464 /* Build configuration list for PBXNativeTarget "ObjCArrays" */;
 			buildPhases = (
-				9FA731D213AC998700BD08B1 /* Sources */,
-				9FA731D313AC998700BD08B1 /* Frameworks */,
-				9FA731D413AC998700BD08B1 /* CopyFiles */,
+				9B719D081338112900B0D464 /* Sources */,
+				9B719D091338112900B0D464 /* Frameworks */,
+				9B719D0A1338112900B0D464 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pointers;
-			productName = Pointers;
-			productReference = 9FA731D613AC998700BD08B1 /* Pointers */;
+			name = ObjCArrays;
+			productName = ObjCArrays;
+			productReference = 9B719D0C1338112900B0D464 /* ObjCArrays */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9FA731CD13AC998700BD08B1 /* Project object */ = {
+		9B719D031338112900B0D464 /* Project object */ = {
 			isa = PBXProject;
-			attributes = {
-				ORGANIZATIONNAME = "Software Machine Development";
-			};
-			buildConfigurationList = 9FA731D013AC998700BD08B1 /* Build configuration list for PBXProject "Pointers" */;
+			buildConfigurationList = 9B719D061338112900B0D464 /* Build configuration list for PBXProject "ObjCArrays" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9FA731CB13AC998700BD08B1;
-			productRefGroup = 9FA731D713AC998700BD08B1 /* Products */;
+			mainGroup = 9B719D011338112900B0D464;
+			productRefGroup = 9B719D0D1338112900B0D464 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FA731D513AC998700BD08B1 /* Pointers */,
+				9B719D0B1338112900B0D464 /* ObjCArrays */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9FA731D213AC998700BD08B1 /* Sources */ = {
+		9B719D081338112900B0D464 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA731DE13AC998700BD08B1 /* main.m in Sources */,
+				9B719D141338112900B0D464 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9FA731E213AC998700BD08B1 /* Debug */ = {
+		9B719D181338112900B0D464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -161,7 +158,7 @@
 			};
 			name = Debug;
 		};
-		9FA731E313AC998700BD08B1 /* Release */ = {
+		9B719D191338112900B0D464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -175,7 +172,7 @@
 			};
 			name = Release;
 		};
-		9FA731E513AC998700BD08B1 /* Debug */ = {
+		9B719D1B1338112900B0D464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,12 +180,12 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pointers/Pointers-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjCArrays/ObjCArrays-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9FA731E613AC998700BD08B1 /* Release */ = {
+		9B719D1C1338112900B0D464 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +193,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pointers/Pointers-Prefix.pch";
+				GCC_PREFIX_HEADER = "ObjCArrays/ObjCArrays-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -204,25 +201,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA731D013AC998700BD08B1 /* Build configuration list for PBXProject "Pointers" */ = {
+		9B719D061338112900B0D464 /* Build configuration list for PBXProject "ObjCArrays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA731E213AC998700BD08B1 /* Debug */,
-				9FA731E313AC998700BD08B1 /* Release */,
+				9B719D181338112900B0D464 /* Debug */,
+				9B719D191338112900B0D464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA731E413AC998700BD08B1 /* Build configuration list for PBXNativeTarget "Pointers" */ = {
+		9B719D1A1338112900B0D464 /* Build configuration list for PBXNativeTarget "ObjCArrays" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9FA731E513AC998700BD08B1 /* Debug */,
-				9FA731E613AC998700BD08B1 /* Release */,
+				9B719D1B1338112900B0D464 /* Debug */,
+				9B719D1C1338112900B0D464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9FA731CD13AC998700BD08B1 /* Project object */;
+	rootObject = 9B719D031338112900B0D464 /* Project object */;
 }

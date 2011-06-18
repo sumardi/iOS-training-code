@@ -43,4 +43,13 @@
    <FileRef
       location = "group:Pointers/Pointers.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:CStyleArrays/CStyleArrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ObjCArrays/ObjCArrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Dictionaries/Dictionaries.xcodeproj">
+   </FileRef>
 </Workspace>
