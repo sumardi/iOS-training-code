@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BasicUI/BasicUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UserInput/UserInput.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Controls/Controls.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DataSources/DataSources.xcodeproj">
+   </FileRef>
+</Workspace>
