@@ -22,4 +22,7 @@
    <FileRef
       location = "group:SearchTable/SearchTable.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:SimpleNavigation/SimpleNavigation.xcodeproj">
+   </FileRef>
 </Workspace>
