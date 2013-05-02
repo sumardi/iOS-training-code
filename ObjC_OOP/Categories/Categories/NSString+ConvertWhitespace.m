@@ -8,10 +8,10 @@
 
 #import "NSString+ConvertWhitespace.h"
 
-
 @implementation NSString (NSString_ConvertWhitespace)
 
--(NSString *) convertWhitespace {
+- (NSString *)convertWhitespace
+{
     return [self stringByReplacingOccurrencesOfString:@" " withString:@"_"];
 }
 

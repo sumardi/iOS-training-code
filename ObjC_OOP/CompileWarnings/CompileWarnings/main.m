@@ -12,7 +12,7 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
     // COMMON WARNINGS - can uncomment each individually.
     
@@ -46,7 +46,7 @@ int main (int argc, const char * argv[])
     
     // lots more for you to discover! try to collect them all!
 
-    [pool drain];
+    }
     return 0;
 }
 

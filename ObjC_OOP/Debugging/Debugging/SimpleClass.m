@@ -2,20 +2,15 @@
 //  SimpleClass.m
 //  Debugging
 //
-//  Created by Simon Allardice on 3/1/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Sumardi Shukor on 6/18/11.
+//  Copyright 2011 Software Machine Development. All rights reserved.
 //
 
 #import "SimpleClass.h"
 
-
 @implementation SimpleClass
 
 @synthesize name, myNumber;
-
--(void)simpleMethod {
-    NSLog(@"In the class method");
-}
 
 - (id)init
 {
@@ -28,10 +23,9 @@
     return self;
 }
 
-- (void)dealloc
+- (void)simpleMethod
 {
-    [name release];
-    [super dealloc];
+    NSLog(@"In the class method");
 }
 
 @end

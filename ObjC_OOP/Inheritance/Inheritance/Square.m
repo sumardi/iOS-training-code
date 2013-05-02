@@ -11,7 +11,7 @@
 
 @implementation Square
 
--(id) initWithSize: (int) s 
+- (id)initWithSize:(int)s
 {
     self = [super init];
     if ( self ) {
@@ -31,30 +31,25 @@
     return self;
 }
 
--(void) setSize: (int) s 
+- (void)setSize:(int)s
 {
     width = s;
     height = s;
 }
 
--(int) size 
+- (int)size
 {
     return width;
 }
 
--(void) setWidth: (int) w 
+- (void)setWidth:(int)w
 {
     [self setSize: w];
 }
 
--(void) setHeight: (int) h 
+- (void)setHeight:(int)h
 {
-    [self setSize: h];
-}
-
-- (void)dealloc
-{
-    [super dealloc];
+    [self setSize:h];
 }
 
 @end

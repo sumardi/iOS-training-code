@@ -10,13 +10,13 @@
 //#import "MyNewClass.h"
 int main (int argc, const char * argv[] ) 
 {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
     
     // COMMON ERRORS
     
     // Error #1
-    NSString myString = [NSString stringWithFormat:@"Here's the first problem!"];
-    NSLog(@"The string is %@", myString);
+//    NSString myString = [NSString stringWithFormat:@"Here's the first problem!"];
+//    NSLog(@"The string is %@", myString);
     
     // Error #2
 //    int a = 5, b = 10;
@@ -36,7 +36,7 @@ int main (int argc, const char * argv[] )
 //    NSLog(@'Hello, World!');
     
 
-    [pool drain];
+    }
     return 0;
 }
 

@@ -11,7 +11,7 @@
 
 @implementation Player
 
-- (id)initWithScore:(int) s
+- (id)initWithScore:(int)s
 {
     self = [super init];
     if (self) {
@@ -31,9 +31,10 @@
     return self;
 }
 
-- (void)dealloc
+- (int)getScore
 {
-    [super dealloc];
+    return score;
 }
+
 
 @end

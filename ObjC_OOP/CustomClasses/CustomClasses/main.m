@@ -14,55 +14,48 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    Fraction *frac = [[Fraction alloc] init];
-    
-    // set the values
-    [frac setNumerator: 1];
-    [frac setDenominator: 3];
-    
-    // output
-    NSLog(@"The fraction is : %@", [frac print]);
-    
-    Fraction *frac2 = [[Fraction alloc] init];
-    [frac2 setNumerator: 1 andDenominator: 5];
-    
-    NSLog(@"Fraction 2 is : %@", [frac2 print]);
-    
-    Fraction *frac3 = [[Fraction alloc] initWithNumerator: 3 denominator: 10];
-    NSLog(@"Fraction 3 is : %@", [frac3 print]);
-    
-    // free memory
-    [frac release];
-    [frac2 release];
-    [frac3 release];
+        Fraction *frac = [[Fraction alloc] init];
+        
+        // set the values
+        [frac setNumerator: 1];
+        [frac setDenominator: 3];
+        
+        // output
+        NSLog(@"The fraction is : %@", [frac print]);
+        
+        Fraction *frac2 = [[Fraction alloc] init];
+        [frac2 setNumerator: 1 andDenominator: 5];
+        
+        NSLog(@"Fraction 2 is : %@", [frac2 print]);
+        
+        Fraction *frac3 = [[Fraction alloc] initWithNumerator: 3 denominator: 10];
+        NSLog(@"Fraction 3 is : %@", [frac3 print]);
+        
+        // free memory
 
-    Access *a = [[Access alloc] init];
-    a->publicVar = 5;
-    NSLog(@"Public var : %i", a->publicVar);
+        Access *a = [[Access alloc] init];
+        a->publicVar = 5;
+        NSLog(@"Public var : %i", a->publicVar);
+        
+        // doesn't compile
+        //a->privateVar = 10;
+        //NSLog(@"Private var : %i", a->privateVar);
+        
+        ClassLevel *c1 = [[ClassLevel alloc] init];
+        ClassLevel *c2 = [[ClassLevel alloc] init];
+        
+        // print count
+        NSLog(@"ClassLevel count : %i", [ClassLevel initCount]);
+        
+        ClassLevel *c3 = [[ClassLevel alloc] init];
+        
+        // print count again
+        NSLog(@"ClassLevel count : %i", [ClassLevel initCount]);
+        
     
-    // doesn't compile
-    //a->privateVar = 10;
-    //NSLog(@"Private var : %i", a->privateVar);
-    [a release];
-    
-    ClassLevel *c1 = [[ClassLevel alloc] init];
-    ClassLevel *c2 = [[ClassLevel alloc] init];
-    
-    // print count
-    NSLog(@"ClassLevel count : %i", [ClassLevel initCount]);
-    
-    ClassLevel *c3 = [[ClassLevel alloc] init];
-    
-    // print count again
-    NSLog(@"ClassLevel count : %i", [ClassLevel initCount]);
-    
-    [c1 release];
-    [c2 release];
-    [c3 release];
-    
-    [pool drain];
+    }
     return 0;
 }
 

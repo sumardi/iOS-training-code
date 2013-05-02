@@ -11,36 +11,43 @@
 
 @implementation Fraction
 
--(Fraction *) initWithNumerator: (int) n denominator: (int) d {
+- (Fraction *)initWithNumerator:(int)n denominator:(int)d
+{
     self = [super init];
-    if ( self ) {
-        [self setNumerator: n andDenominator: d];
+    if (self) {
+        [self setNumerator:n andDenominator:d];
     }
     
     return self;
 }
 
--(NSString *) print {
+- (NSString *)print
+{
     return [NSString stringWithFormat:@"%i/%i", numerator, denominator];
 }
 
--(void) setNumerator: (int) n {
+- (void)setNumerator:(int)n
+{
     numerator = n;
 }
 
--(void) setDenominator: (int) d {
+- (void)setDenominator:(int)d
+{
     denominator = d;
 }
 
--(int) denominator {
+- (int)denominator
+{
     return denominator;
 }
 
--(int) numerator {
+- (int)numerator
+{
     return numerator;
 }
 
--(void) setNumerator: (int) n andDenominator: (int) d {
+- (void)setNumerator:(int)n andDenominator:(int)d
+{
     numerator = n;
     denominator = d;
 }

@@ -8,11 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-static int count;
-
 @interface ClassLevel : NSObject
 
-+(int) initCount;
-+(void) initialize;
++ (int)initCount;
++ (void)initialize;
 
 @end

@@ -19,34 +19,30 @@ int main (int argc, const char * argv[])
     int a = 100, b = 200;
     a = a + b;
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    NSString *simpleString = [[NSString alloc] initWithFormat:@"Test string"];
-    NSLog(@"The string is %@", [simpleString uppercaseString]);
-    
-    simpleFunction();
-    
-    NSLog(@"Creating a custom class");
-    SimpleClass *foo = [[SimpleClass alloc] init];
-    [foo simpleMethod];
-    [foo release];
-    
-    simpleFunction();
+        NSString *simpleString = [[NSString alloc] initWithFormat:@"Test string"];
+        NSLog(@"The string is %@", [simpleString uppercaseString]);
+        
+        simpleFunction();
+        
+        NSLog(@"Creating a custom class");
+        SimpleClass *foo = [[SimpleClass alloc] init];
+        [foo simpleMethod];
+        
+        simpleFunction();
 
-    // create an array
-    NSMutableArray *lotsOfObjects = [[NSMutableArray alloc] init];
-    for (int i = 0; i < 100 ; i++ ) {
-        id temp = [[SimpleClass alloc] init];
-        [lotsOfObjects addObject:temp];
-        [temp release];
+        // create an array
+        NSMutableArray *lotsOfObjects = [[NSMutableArray alloc] init];
+        for (int i = 0; i < 100 ; i++ ) {
+            id temp = [[SimpleClass alloc] init];
+            [lotsOfObjects addObject:temp];
+        }
+        
+        NSLog(@"Now, out of the loop");
+
+    
     }
-    
-    NSLog(@"Now, out of the loop");
-
-    [simpleString release];
-    [lotsOfObjects release];
-    
-    [pool drain];
     return 0;
 }
 

@@ -24,8 +24,7 @@
 // dealloc is for cleanup
 - (void)dealloc
 {
-    [startDate release];
-    [super dealloc];
+    
 }
 
 @end

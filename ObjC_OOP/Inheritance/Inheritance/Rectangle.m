@@ -11,11 +11,11 @@
 
 @implementation Rectangle
 
--(id) initWithWidth: (int) w height: (int) h 
+- (id)initWithWidth:(int)w height:(int)h 
 {
     self = [super init];
     if ( self ) {
-        [self setWidth: w height: h];
+        [self setWidth:w height:h];
     }
     
     return self;
@@ -31,39 +31,36 @@
     return self;
 }
 
--(void) setWidth: (int) w 
+- (void)setWidth:(int)w 
 {
     width = w;
 }
 
--(void) setHeight: (int) h 
+- (void)setHeight:(int)h 
 {
     height = h;
 }
 
--(void) setWidth: (int) w height: (int) h 
+- (void)setWidth:(int)w height:(int)h 
 {
     width = w;
     height = h;
 }
 
--(int) width 
+- (int)width
 {
     return width;
 }
 
--(int) height 
+- (int)height
 {
-    return  height;
+    return height;
 }
 
--(void) print {
+- (void)print
+{
     NSLog(@"width = %i, height = %i", width, height);
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 @end

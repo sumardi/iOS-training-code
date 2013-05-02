@@ -8,9 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface NSString (NSString_ConvertWhitespace)
 
--(NSString *) convertWhitespace;
+- (NSString *)convertWhitespace;
 
 @end

@@ -14,6 +14,7 @@
     int score;
 }
 
-- (id)initWithScore:(int) s;
+- (id)initWithScore:(int)s;
+- (int)getScore;
 
 @end

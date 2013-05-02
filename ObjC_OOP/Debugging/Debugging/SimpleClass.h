@@ -2,8 +2,8 @@
 //  SimpleClass.h
 //  Debugging
 //
-//  Created by Simon Allardice on 3/1/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Sumardi Shukor on 6/18/11.
+//  Copyright 2011 Software Machine Development. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,9 +14,10 @@
     NSString *name;
     int myNumber;
 }
-@property (retain) NSString *name;
+
+@property (strong) NSString *name;
 @property int myNumber;
 
--(void) simpleMethod;
+- (void)simpleMethod;
 
 @end

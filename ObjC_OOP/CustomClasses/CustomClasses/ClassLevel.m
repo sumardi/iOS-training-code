@@ -8,12 +8,14 @@
 
 #import "ClassLevel.h"
 
+static int count;
 
 @implementation ClassLevel
 
 - (id)init
 {
     self = [super init];
+    
     if (self) {
         count++;
     }
@@ -21,11 +23,13 @@
     return self;
 }
 
-+(int) initCount {
++ (int)initCount
+{
     return count;
 }
 
-+(void) initialize {
++ (void)initialize
+{
     count = 0;
 }
 

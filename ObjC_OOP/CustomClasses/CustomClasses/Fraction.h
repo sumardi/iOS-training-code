@@ -14,12 +14,12 @@
     int denominator;
 }
 
--(NSString *) print;
--(void) setNumerator: (int) n;
--(void) setDenominator: (int) d;
--(int) numerator;
--(int) denominator;
--(void) setNumerator: (int) n andDenominator: (int) d; // multiple parameters
--(Fraction *) initWithNumerator: (int) n denominator: (int) d; // constructor
+- (NSString *)print;
+- (void)setNumerator:(int) n;
+- (void)setDenominator:(int) d;
+- (int)numerator;
+- (int)denominator;
+- (void)setNumerator:(int)n andDenominator:(int)d; // multiple parameters
+- (Fraction *)initWithNumerator:(int)n denominator:(int)d; // constructor
 
 @end

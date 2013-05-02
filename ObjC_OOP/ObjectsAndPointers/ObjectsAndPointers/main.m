@@ -14,12 +14,12 @@ void myFunction(NSString *foo) {
 
 int main (int argc, const char * argv[])
 {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    NSString *message = @"Hello";
-    myFunction(message); // do not need the asterisk
+        NSString *message = @"Hello";
+        myFunction(message); // do not need the asterisk
     
-    [pool drain];
+    }
     return 0;
 }
 

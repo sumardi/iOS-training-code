@@ -12,13 +12,14 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
-    Player *p1 = [[Player alloc] initWithScore:5000];
+    @autoreleasepool {
+        Player *p1 = [[Player alloc] initWithScore:5000];
+        NSLog(@"Player 1, Score: %i", [p1 getScore]);
+        
+        Player *p2 = [[Player alloc] init];        
+        NSLog(@"Player 2, Score: %i", [p2 getScore]);
+    }
     
-    [p1 release];
-
-    [pool drain];
     return 0;
 }
 

@@ -1,18 +1,14 @@
+//
+//  MyNewClass.h
+//  CompileIssues
+//
+//  Created by Sumardi Shukor on 6/18/11.
+//  Copyright 2011 Software Machine Development. All rights reserved.
+//
+
 #import "MyNewClass.h"
 
-
 @implementation MyNewClass
-
--(NSString *)groovyMethod {
-    int a = 5;
-    int b =  6;
-    int c = a + b;
-    if (c > 10 ) {
-    return @"The result is....";
-    } else {
-        return @"Something";
-    }
-}
 
 - (id)init
 {
@@ -24,9 +20,17 @@
     return self;
 }
 
-- (void)dealloc
+- (NSString *)groovyMethod
 {
-    [super dealloc];
+    int a = 5;
+    int b =  6;
+    int c = a + b;
+    if (c > 10 ) {
+        return @"The result is....";
+    } else {
+        return @"Something";
+    }
 }
+
 
 @end

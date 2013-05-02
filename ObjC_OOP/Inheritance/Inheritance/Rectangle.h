@@ -15,12 +15,12 @@
     int height;
 }
 
--(id) initWithWidth: (int) w height: (int) h;
--(void) setWidth: (int) w;
--(void) setHeight: (int) h;
--(void) setWidth: (int) w height: (int) h;
--(int) width;
--(int) height;
--(void) print;
+- (id)initWithWidth:(int)w height:(int)h;
+- (void)setWidth:(int)w;
+- (void)setHeight:(int)h;
+- (void)setWidth:(int)w height:(int)h;
+- (int)width;
+- (int)height;
+- (void)print;
 
 @end

@@ -12,13 +12,13 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    NSString *sentence = @"The quick brown fox jumped over the lazy dog";
-    
-    NSLog(@"The sentence is %@", [sentence convertWhitespace]);
+        NSString *sentence = @"The quick brown fox jumped over the lazy dog";
+        
+        NSLog(@"The sentence is %@", [sentence convertWhitespace]);
 
-    [pool drain];
+    }
     return 0;
 }
 
