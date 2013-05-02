@@ -11,20 +11,20 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    int count = 10;
-    int *int_pointer;
-    
-    int_pointer = &count;
-    
-    NSLog(@"count = %i, int_pointer = %i", count, *int_pointer);
-    
-    count = 20;
-    
-    NSLog(@"New value : count = %i, int_pointer = %i", count, *int_pointer);
+        int count = 10;
+        int *int_pointer;
+        
+        int_pointer = &count;
+        
+        NSLog(@"count = %i, int_pointer = %i", count, *int_pointer);
+        
+        count = 20;
+        
+        NSLog(@"New value : count = %i, int_pointer = %i", count, *int_pointer);
 
-    [pool drain];
+    }
     return 0;
 }
 

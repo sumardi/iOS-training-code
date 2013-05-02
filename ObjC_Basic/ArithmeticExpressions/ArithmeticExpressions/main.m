@@ -11,32 +11,32 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    int a = 100;
-    int b = 2;
-    int c = 25;
-    int d = 4;
-    int result;
-    
-    result = a - b;     // substraction
-    NSLog(@"a - b = %i", result);
-    
-    result = b * c;     // multiplication
-    NSLog(@"b * c = %i", result);
-    
-    result = a / c;     // division
-    NSLog(@"a / c = %i", result);
-    
-    result = a + b * c; // precedence
-    NSLog(@"a + b * c = %i", result);
-    
-    NSLog(@"a * b + c * d = %i", a * b + c * d);
+        int a = 100;
+        int b = 2;
+        int c = 25;
+        int d = 4;
+        int result;
+        
+        result = a - b;     // substraction
+        NSLog(@"a - b = %i", result);
+        
+        result = b * c;     // multiplication
+        NSLog(@"b * c = %i", result);
+        
+        result = a / c;     // division
+        NSLog(@"a / c = %i", result);
+        
+        result = a + b * c; // precedence
+        NSLog(@"a + b * c = %i", result);
+        
+        NSLog(@"a * b + c * d = %i", a * b + c * d);
 
-    result = a % b;     // modulus
-    NSLog(@"a %% b = %i" , result);
+        result = a % b;     // modulus
+        NSLog(@"a %% b = %i" , result);
     
-    [pool drain];
+    }
     return 0;
 }
 

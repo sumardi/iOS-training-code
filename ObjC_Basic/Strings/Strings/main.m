@@ -11,17 +11,17 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    // char can contain only a single character. (single quote)
-    char plusSign = '+';
-    // char minusSign = "-"; - error
-    
-    // NSLog() is a character string. (double quote)
-    NSLog(@"The symbol of plus sign is %c", plusSign);
-    // NSLog(@''); - error
+        // char can contain only a single character. (single quote)
+        char plusSign = '+';
+        // char minusSign = "-"; - error
+        
+        // NSLog() is a character string. (double quote)
+        NSLog(@"The symbol of plus sign is %c", plusSign);
+        // NSLog(@''); - error
 
-    [pool drain];
+    }
     return 0;
 }
 

@@ -59,23 +59,23 @@ unsigned long int factorial(unsigned int n)
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    // call the function
-    myFunction();
-    
-    float result = absoluteValue(-15.5);
-    NSLog(@"result = %.2f", result);
+        // call the function
+        myFunction();
+        
+        float result = absoluteValue(-15.5);
+        NSLog(@"result = %.2f", result);
 
-    NSLog(@"squareRoot (2.0) = %f", squareRoot(2.0));
-    NSLog(@"squareRoot (144.0) = %f", squareRoot(144.0));
+        NSLog(@"squareRoot (2.0) = %f", squareRoot(2.0));
+        NSLog(@"squareRoot (144.0) = %f", squareRoot(144.0));
+        
+        unsigned int j;
+        for(j = 0; j < 11; j++) {
+            NSLog(@"%2u! = %lu", j, factorial(j));
+        }
     
-    unsigned int j;
-    for(j = 0; j < 11; j++) {
-        NSLog(@"%2u! = %lu", j, factorial(j));
     }
-    
-    [pool drain];
     return 0;
 }
 

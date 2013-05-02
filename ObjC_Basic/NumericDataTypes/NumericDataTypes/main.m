@@ -11,18 +11,18 @@
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
-    int a = 25;
-    int b = 2;
-    
-    // Typecasting
-    float result = (float) a / b;
-    
-    NSLog(@"The result is %f", result);
+        int a = 25;
+        int b = 2;
+        
+        // Typecasting
+        float result = (float) a / b;
+        
+        NSLog(@"The result is %f", result);
     
 
-    [pool drain];
+    }
     return 0;
 }
 

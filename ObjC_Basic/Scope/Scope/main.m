@@ -11,18 +11,18 @@
 int main (int argc, const char * argv[])
 {
     
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
     
-    int foo = 10;
-    
-    for ( int i = 1 ; i < 10 ; i++ ) { 
-        // all sorts of stuff
-        int foo = 55;
-        NSLog(@"The value of foo is %i", foo);
-    }
-    
-    NSLog(@"The last value of foo was %i", foo);
+        int foo = 10;
+        
+        for ( int i = 1 ; i < 10 ; i++ ) { 
+            // all sorts of stuff
+            int foo = 55;
+            NSLog(@"The value of foo is %i", foo);
+        }
+        
+        NSLog(@"The last value of foo was %i", foo);
 
-    [pool drain];
+    }
     return 0;
 }

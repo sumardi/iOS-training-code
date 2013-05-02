@@ -11,29 +11,30 @@
 int main (int argc, const char * argv[])
 {
     
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    // create a mutable dictionary
-    NSMutableDictionary *states =
-    [NSMutableDictionary dictionaryWithObjectsAndKeys:
-     @"Selangor", @"Shah Alam",
-     @"Sabah", @"Kota Kinabalu",
-     @"Sarawak", @"Kuching",
-     @"Johor", @"Johor Bahru",
-     @"Perak", @"iPoh",
-     nil];
+    @autoreleasepool {
+        // create a mutable dictionary
+        NSMutableDictionary *states =
+        [NSMutableDictionary dictionaryWithObjectsAndKeys:
+             @"Selangor", @"Shah Alam",
+             @"Sabah", @"Kota Kinabalu",
+             @"Sarawak", @"Kuching",
+             @"Johor", @"Johor Bahru",
+             @"Perak", @"iPoh",
+            nil
+        ];
+        
+        // add to it
+        [states setObject:@"Pahang" forKey:@"Kuantan"];
+        
+        NSString *someState = @"Kuantan";
+        
+        NSLog(@"%@ is capital city of %@", someState, [states objectForKey:someState]);
     
-    // add to it
-    [states setObject:@"Pahang" forKey:@"Kuantan"];
+//      Fast Enumeration
+//        for (NSString *stateAbbrev in states) {
+//            NSLog(@"%@ is capital city of %@", stateAbbrev, [states objectForKey:stateAbbrev]);
+//        }
     
-    NSString *someState = @"Kuantan";
-    
-    NSLog(@"%@ is capital city of %@", someState, [states objectForKey:someState]);
-    
-    // Fast Enumeration
-//    for (NSString *stateAbbrev in states) {
-//        NSLog(@"%@ is capital city of %@", stateAbbrev, [states objectForKey:stateAbbrev]);
-//    }
-    
-    [pool drain];
+    }
     return 0;
 }

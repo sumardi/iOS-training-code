@@ -30,14 +30,14 @@ double volume (double r)
 int main (int argc, const char * argv[])
 {
 
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 
 #if DEBUG
-    NSLog(@"radius 1: %.4f %.4f %.4f", 
-          area(1.0), circumference(1.0), volume(1.0));
+        NSLog(@"radius 1: %.4f %.4f %.4f", 
+              area(1.0), circumference(1.0), volume(1.0));
 #endif
     
-    [pool drain];
+    }
     return 0;
 }
 
