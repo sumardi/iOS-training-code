@@ -52,4 +52,7 @@
    <FileRef
       location = "group:Dictionaries/Dictionaries.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ObjCLiterals/ObjCLiterals.xcodeproj">
+   </FileRef>
 </Workspace>

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ObjCLiterals' target in the 'ObjCLiterals' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
