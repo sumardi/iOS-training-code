@@ -26,6 +26,9 @@
       location = "group:Dynamic/Dynamic.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:ObjCBlocks/ObjCBlocks.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CommonRuntimeErrors/CommonRuntimeErrors.xcodeproj">
    </FileRef>
    <FileRef
