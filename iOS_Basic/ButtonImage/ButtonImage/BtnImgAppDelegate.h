@@ -1,0 +1,15 @@
+//
+//  BtnImgAppDelegate.h
+//  ButtonImage
+//
+//  Created by Sumardi Shukor on 5/8/13.
+//  Copyright (c) 2013 Software Machine Development. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface BtnImgAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
