@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="sGi-EG-1SM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller - Core Data-->
+        <scene sceneID="HcK-cN-Nxt">
+            <objects>
+                <tableViewController id="f2S-n3-3Pd" customClass="CDTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6zJ-Ga-kaP">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="Ts2-Dl-fZl">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Core Data" id="Cqx-V6-ewj">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hi2-9f-P3j">
+                            <connections>
+                                <segue destination="YRy-DY-ZtT" kind="modal" id="vFJ-fG-Sjk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4tX-EG-6d4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-109" y="-7"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="69t-bl-Toi">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="YRy-DY-ZtT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xMi-x8-zKq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="acY-ot-jJq" kind="relationship" relationship="rootViewController" id="LG1-Ro-ICn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rqn-yR-rXK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="-7"/>
+        </scene>
+        <!--New View Controller - New Student-->
+        <scene sceneID="E5a-7i-Mve">
+            <objects>
+                <viewController id="acY-ot-jJq" customClass="CDNewViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tna-pl-Rw2">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yYA-iW-z3w">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="acY-ot-jJq" id="syD-9Y-nt9"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEE-9c-uBp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="RlM-Kf-oU3"/>
+                                    <constraint firstAttribute="width" constant="60" id="bTe-KR-suR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yYA-iW-z3w" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ZEE-21-r58"/>
+                            <constraint firstItem="yYA-iW-z3w" firstAttribute="leading" secondItem="Tna-pl-Rw2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bTm-E3-678"/>
+                            <constraint firstItem="QEE-9c-uBp" firstAttribute="top" secondItem="Tna-pl-Rw2" secondAttribute="top" constant="23" id="cGM-sq-bwq"/>
+                            <constraint firstItem="QEE-9c-uBp" firstAttribute="leading" secondItem="Tna-pl-Rw2" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="kwm-xO-r2C"/>
+                            <constraint firstItem="yYA-iW-z3w" firstAttribute="top" secondItem="QEE-9c-uBp" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lZM-1e-IF6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Student" id="uMD-2u-scD">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="mwp-2a-HxF">
+                            <connections>
+                                <action selector="cancelBtnPressed:" destination="acY-ot-jJq" id="cGY-hn-nL1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="nameTxtField" destination="yYA-iW-z3w" id="i3l-Yu-Saz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9h-yb-gJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1041" y="-7"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5cb-Av-KFZ">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="sGi-EG-1SM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nOw-Eg-gdq">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="f2S-n3-3Pd" kind="relationship" relationship="rootViewController" id="Dos-Cj-gak"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dgh-bt-oco" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-643" y="-7"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="CDNewViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CDNewViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancelBtnPressed:" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="nameTxtField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+        <class className="CDTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CDTableViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
